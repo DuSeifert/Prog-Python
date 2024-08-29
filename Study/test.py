@@ -1,5 +1,5 @@
 #this opens a file in append mode
-f = open("C:\\Users\\eduar\\Documentos\\Prog Python\\Hello.txt", "a+")
+f = open("C:\\Users\\eduar\\Documentos\\Prog Python\\Study\\Hello.txt", "a+")
 
 #text input to write in file
 txt = input("Enter input to write in file: ")
