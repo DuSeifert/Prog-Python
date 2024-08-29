@@ -1,6 +1,5 @@
 #this shit is to tell me when to put the thingy in the ruby or jade slot to get bonus cps
-#don't ask, i have too much free timefcgdf
-
+#don't ask, i have too much free time
 
 import datetime
 import math
@@ -60,7 +59,7 @@ def fixTime(hour):
 
 print("Temple thingy\n")
 
-hour = 21  #int(datetime.datetime.now().strftime("%H")) 
+hour = int(datetime.datetime.now().strftime("%H")) 
 minute = int(datetime.datetime.now().strftime("%M"))
 
 time = hour + round((minute/60), 2)
