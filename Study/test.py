@@ -12,6 +12,7 @@ f.write("\n" + txt)
 f.seek(0)
 
 #print content of file
+#teste
 print("\n" + f.read())
 
 f.close()
