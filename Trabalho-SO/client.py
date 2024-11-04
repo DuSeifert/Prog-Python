@@ -6,6 +6,8 @@ FORMAT = "utf-8"
 DC_MSG = "!DC"
 SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
+#vfhfwfbwefbwbef
+#flwfelnefknlw
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
