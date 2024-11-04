@@ -22,3 +22,6 @@ def send(msg):
 send("Hello World!")
 input()
 send(DC_MSG)
+
+#para funcionar, primeiro rodar o server.py no VS code mesmo, CTRL + F5
+# e depois rodar o client.py no terminal, 'python client.py', na mesma pasta do server.py

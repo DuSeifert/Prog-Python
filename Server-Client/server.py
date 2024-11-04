@@ -53,6 +53,5 @@ def start():
 print("[STARTING] server is starting...")
 start()
 
-
-
-
+#para funcionar, primeiro rodar o server.py no VS code mesmo, CTRL + F5
+# e depois rodar o client.py no terminal, python client.py, na mesma pasta do server.py 
