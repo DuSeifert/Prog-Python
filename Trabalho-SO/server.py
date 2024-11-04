@@ -5,7 +5,7 @@ HEADER = 16
 PORT = 6969
 #my public ip address (to make the server work over the internet and not only on my wifi)
 #177.183.212.47
-#SERVER = "177.183.212.47"
+#SERVER = "100.64.202.50"
 
 #my local ip address (to make the server work only on my wifi)
 SERVER = socket.gethostbyname(socket.gethostname())
