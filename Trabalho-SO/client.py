@@ -21,6 +21,7 @@ def send(msg):
     client.send(mensagem)
     print(client.recv(2048).decode(FORMAT))
     
-send("Hello World!")
-input()
-send(DC_MSG)
+msg = ""
+while msg != DC_MSG:
+    msg = input("Digite a mensagem (!DC para desconectar): ")
+    send(msg)
