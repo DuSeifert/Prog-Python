@@ -8,6 +8,15 @@ Para funcionar, rode o server.py e depois o client.py
 
 '''
 
+'''
+TODO:
+    - Testar a comunicação com um jogo simples de pedra, papel e tesoura
+    - Se tudo estiver funcionando, implementar um jogo de PIFE
+    - Criar o jogo em si
+    - Integrar o jogo com o servidor
+    - Tirar nota máxima >:D
+'''
+
 nickname = input("\n\n< Server_PV > Escolha um nickname: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
