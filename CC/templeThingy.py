@@ -1,5 +1,5 @@
 #this shit is to tell me when to put the thingy in the ruby or jade slot to get bonus cps
-#don't ask, i have too much free time
+#don't ask, i have too much free timewaa
 
 import datetime
 import math
